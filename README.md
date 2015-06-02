@@ -1,0 +1,1 @@
+This repository contains an example project that demonstrates how to use [Vizardous](https://github.com/modsim/vizardous) for processing and evaluating single-cell data.
