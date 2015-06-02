@@ -6,6 +6,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import vizardous.delegate.impl.MetaXMLException;
+import vizardous.delegate.impl.PhyloXMLException;
 import vizardous.model.impl.Cell;
 import vizardous.model.impl.Clade;
 import vizardous.model.impl.Forest;
@@ -70,7 +72,16 @@ public class CountCellsWithIncreasedFluorescenceIntensity {
 		File metaXML = new File(metaXMLUrl.getFile());
 
 		/* Create the central component storing all the information. */
-		Forest forest = new Forest(phyloXML, metaXML);
+		Forest forest = null;
+		try {
+			forest = new Forest(phyloXML, metaXML);
+		} catch (PhyloXMLException e) {
+			// Handle exception during loading of PhyloXML file
+			e.printStackTrace();
+		} catch (MetaXMLException e) {
+			// Handle exception during loading of MetaXML file
+			e.printStackTrace();
+		}
 
 		/*
 		 * Create a new instance and initialize it with the previously created
