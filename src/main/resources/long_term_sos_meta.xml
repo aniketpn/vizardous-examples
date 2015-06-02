@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<metaInformation xmlns="http://13cflux.net/static/schemas/metaXML/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://13cflux.net/static/schemas/metaXML/2 metaXML-2.6.0.xsd">
+<metaInformation xmlns="http://13cflux.net/static/schemas/metaXML/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://13cflux.net/static/schemas/metaXML/2 metaXML-2.7.0.xsd">
 	<projectName>LongTermSOS</projectName>
 	<experimentDuration unit="min">1665.513403286</experimentDuration>
 	<frame id="0">

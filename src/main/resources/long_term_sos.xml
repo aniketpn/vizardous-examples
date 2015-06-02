@@ -1,5 +1,6 @@
 <?xml version="1.0" ?>
-<phyloxml>
+<phyloxml xmlns="http://www.phyloxml.org" xmlns:metaxml="http://13cflux.net/static/schemas/metaXML/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd">
+	<metaxml:projectName>LongTermSOS</metaxml:projectName>
 	<phylogeny>
 		<clade>
 			<name>140449261393624</name>
